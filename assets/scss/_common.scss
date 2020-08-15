@@ -1,0 +1,17 @@
+html {
+    font-size: $font-size;
+}
+body {
+    font-size: 1rem;
+    font-family: $font-primary;
+    margin: 0;
+}
+a {
+    color: $color-primary;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $color-accent;
+    }
+}

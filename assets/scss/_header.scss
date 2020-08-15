@@ -1,0 +1,34 @@
+.header {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 150px;
+  background: linear-gradient(#192636, #0e1724);
+  border-bottom: 1px solid #0a1016;
+  box-shadow: 2px 2px 2px #0a1016;
+
+  .logo-img {
+    margin: 0;
+    padding-left: 10px;
+    height: 150px;
+    width: 150px;
+  }
+  .header-title {
+    color: #ffffff;
+    position: absolute;
+    top: 55px;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 35px;
+    text-shadow: 2px 2px 3px #000000;
+  }
+  .header-text {
+    color: #ffffff;
+    position: absolute;
+    top: 55px;
+    left: 45%;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px #000000;
+  }
+}
